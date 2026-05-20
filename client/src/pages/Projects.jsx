@@ -66,17 +66,17 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Quantum Analytics Dashboard",
-      category: "SAAS PRODUCT • 2023",
-      desc: "Next-generation real-time monitoring for distributed networks.",
+      title: "Global Connect",
+      category: "Contributor • 2026",
+      desc: "A live world map highlights member locations and community density, offering a clear visual representation of global reach.",
       img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCUMN99SUG9JJISvQfoDmBeQgsFTu8--AXVKS6T2upL_ilAxAKywlk7CvHWdDZJ3bDJE0mk8whP7WdIOCNKp8e8aZTSw1vY3Hq4Gv3zVoCDXiZ1z4RKpihBPPay27i-bvNPosHgTKV0hp9fxtIj8PLY7jSGEhnHcNz5pD9Cx6Nb3p8HrbwC6WMrFdlBGxeW15QDDYbimU_8PAWoKx-1rcSOcNQOl6IZVLQBD7vm-YW0_jZeGU4P6ImExUDAKCIBE4W0ktp3n8M9i88",
       color: "text-primary"
     },
     {
       id: 2,
-      title: "Obsidian Core Identity",
-      category: "BRAND DESIGN • 2024",
-      desc: "Reimagining the digital presence of a global hardware manufacturer.",
+      title: "Multi Agent Flow",
+      category: "HACKATHON • 2026",
+      desc: "Built a multi-agent system focused on AI-powered content writing and verification during TechSprint, showcasing problem-solving, collaboration, and practical AI implementation skills.",
       img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCLZNRGEaBdSIP8KWRvWuz2CXJ4JadOIBFaSirl4PJNX-UOO887Cs0PZvR_L44AdADob6XsnguFRRdngtyTWFwkH5oAksYCpk5ecDOfhkuANNqzPZakxRgSppyG_W1Uho-aeiUBYJxsNTpWurOjehqXrcPKOiIg2zCdLn_71QY3YL9yAtxoMWqHzUGkyTMrgVw_ZIIx9vZ_NAiP4eVpkZXd0AUra2AqfvK_avuitS7lBdc0l0v9cCkhQkc49oBPvm0a6uJdn_SXBSY",
       color: "text-secondary"
     }
@@ -107,7 +107,7 @@ const Projects = () => {
           viewport={{ once: true }}
           className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl"
         >
-          Deep dives into complex technical challenges. Showcasing architecture, design, and seamless execution.
+          Solving problems with thoughtful design and clean execution.
         </motion.p>
       </div>
 

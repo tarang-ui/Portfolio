@@ -29,6 +29,7 @@ const Contact = () => {
         setStatus({ loading: false, message: result.error || 'Failed to send message.', isError: true });
       }
     } catch (error) {
+      console.error(error);
       setStatus({ loading: false, message: 'Network error. Please try again.', isError: true });
     }
   };
@@ -65,7 +66,7 @@ const Contact = () => {
               onChange={handleChange}
               required
               className="w-full bg-surface-container-highest border border-outline-variant/50 rounded-xl px-5 py-4 text-on-surface focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all duration-300"
-              placeholder="Jane Doe"
+              placeholder="Enter your name"
             />
           </div>
           <div>
@@ -77,7 +78,7 @@ const Contact = () => {
               onChange={handleChange}
               required
               className="w-full bg-surface-container-highest border border-outline-variant/50 rounded-xl px-5 py-4 text-on-surface focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all duration-300"
-              placeholder="jane@example.com"
+              placeholder="Enter your email"
             />
           </div>
           <div>
@@ -89,7 +90,7 @@ const Contact = () => {
               required
               rows="5"
               className="w-full bg-surface-container-highest border border-outline-variant/50 rounded-xl px-5 py-4 text-on-surface focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all duration-300 resize-none"
-              placeholder="Tell me about your project..."
+              placeholder="Type your message here"
             ></textarea>
           </div>
 

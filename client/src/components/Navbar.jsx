@@ -1,15 +1,15 @@
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 
+const links = [
+  { id: 'home', label: 'Home' },
+  { id: 'about', label: 'About' },
+  { id: 'projects', label: 'Projects' },
+  { id: 'contact', label: 'Contact' }
+];
+
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState('home');
-
-  const links = [
-    { id: 'home', label: 'Home' },
-    { id: 'about', label: 'About' },
-    { id: 'projects', label: 'Projects' },
-    { id: 'contact', label: 'Contact' }
-  ];
 
   // Track active section on scroll
   useEffect(() => {
